@@ -28,7 +28,7 @@ function createMainWindow() {
             nodeIntegration: true
         }
     });
-    mainWindow.loadFile('./app/index.html');
+    mainWindow.loadFile(`${__dirname}/app/index.html`);
 }
 
 /* function createAboutWindow() {
