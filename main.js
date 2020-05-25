@@ -14,7 +14,7 @@ const isDev = process.env.NODE_ENV !== 'production' ? true : false;
 const isMac = process.platform === 'darwin' ? true : false;
 
 let mainWindow;
-let aboutWindow;
+//let aboutWindow;
 
 function createMainWindow() {
     mainWindow = new BrowserWindow({
